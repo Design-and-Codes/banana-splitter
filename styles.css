@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    justify-content: center;
+
+    background-color: #ffed30;
+    color: #6b3e26;
+    
+    font-family: "Press Start 2P", system-ui;
+}
+
+.section {
+    margin-bottom: 5rem;
+}
+
+.btn-banana-effect {
+    background-color: #6b3e26;
+    color: #ffed30;
+    border: none;
+    padding: 1rem;
+
+    font-family: "Press Start 2P", system-ui;
+    font-size: 0.75rem;
+}
+
+.btn-banana-effect:hover {
+    background-color: #5c3520;
+    cursor: pointer;
+}
+
+.btn-banana-effect:active {
+    background-color: #5c3520;
+}
+
+#btn-reset-banana-color {
+    display: none;
+}
+
+.banana-image {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
