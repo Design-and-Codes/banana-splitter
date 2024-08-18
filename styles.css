@@ -18,6 +18,7 @@ body {
     background-color: #6b3e26;
     color: #ffed30;
     border: none;
+    margin-top: 1rem;
     padding: 1rem;
 
     font-family: "Press Start 2P", system-ui;
@@ -35,6 +36,7 @@ body {
 
 #btn-reset-banana-color {
     display: none;
+    /* align-items: end; */
 }
 
 .banana-image {
