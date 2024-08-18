@@ -9,6 +9,11 @@ let changeBananaColorButton = document.getElementById("btn-change-banana-color")
 let resetBananaColorButton  = document.getElementById("btn-reset-banana-color");
 
 
+flipBananaButton.addEventListener("click", () => {
+    banana.classList.toggle("flip");
+});
+
+
 // This is just pseudo-code; you can delete/modify this part and come back later again 
 function changeBananaColor() {
     changeBananaColorButton.addEventListener("click", () => {
