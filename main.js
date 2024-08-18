@@ -14,6 +14,14 @@ flipBananaButton.addEventListener("click", () => {
 });
 
 
+disappearBananaButton.addEventListener("click", () => {
+    banana.style.display = "none";
+});
+
+showBananaButton.addEventListener("click", () => {
+    banana.style.display = "block";
+});
+
 // This is just pseudo-code; you can delete/modify this part and come back later again 
 function changeBananaColor() {
     changeBananaColorButton.addEventListener("click", () => {
